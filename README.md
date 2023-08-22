@@ -1,22 +1,20 @@
-# Hello, world!
+# Week 1 Practice
 
-Today, we'll build on our knowledge of HTML tags by making our first changes to HTML, and practice using our new knowledge of GitHub. You'll also learn two new skills: how to preview your work in a web browser as you change it, and how to test your changes and see feedback in GitHub.
+This week's practice involves two parts. In the first part, you'll use a Code Tour to learn about what an HTML boilerplate is. In the second part, you'll read an interview about the UX of a virtual reality game and practice marking it up using HTML tags.
+
+Start by installing the CodeTour plugin from VSCode.
 
 ## Requirements
 
-- [ ] Change the title of the page to "Hello, world!"
-- [ ] Add a paragraph in the first line of the body tag with the text "Hello, world!", using the `<p>` tag.
-- [ ] Add another paragraph telling us who you are, and what you're looking forward to most in this class.
-- [ ] After class, choose one HTML element that interests you from [the MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) and briefly explain what it does, as well as why you think it is interesting. Use the snippet below to get started:
-	```
-		<h2>My favorite new HTML element</h2>
-		<!-- This is a comment. It helps provide instructions, and doesn't show in final HTML. You can delete it if you want, and replace this with what your favorite HTML element is, and why. Hint: if you want to show your HTML element like a tag in the text, like in the example, you may need to escape the HTML element using a tool like https://www.freeformatter.com/html-escape.html -->
-		<h3>How to use this element</h3>
-		<code>
-			<!-- Try adding an example of how to use your HTML element here. You can use MDN's examples as a starting point. -->
-		</code>
-		<p>All information is from <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a></cite></p>
-	```
+By the time this practice assignment is finished, you'll have added the article content to the page and marked it up in a way that meets the following requirements:
+
+- [ ] The title of the webpage should be "Creating Empathy in Notes on Blindness VR".
+- [ ] There should be 1 `<h1>` tag on the page.
+- [ ] The note "_This interview has been edited for brevity and was originally published on Playful Realities._" should include a link to https://www.playfulrealities.com/2021/01/creating-empathy-in-notes-on-blindness.html using the `<a>` tag.
+- [ ] The first mention of Notes on Blindness under "What We Played" should link to https://youtu.be/ef-Id3PsEzM?t=9 using the `<a>` tag.
+- [ ] The title of the game, "Notes on Blindness VR", should always be italicized using an `<em>` tag. (Hint: the title is mentioned 5 times in the interview.)
+- [ ] The five subheadings should use `<h2>` tags.
+- [ ] The three subheadings in the "Our Overall Experience" section should use `<h3>` tags.
 
 ## Finished Assignment Example
 

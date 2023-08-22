@@ -1,0 +1,55 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "The HTML boilerplate",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "# Introduction\n\nAll HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done. In this lesson, we will explore the different parts of this boilerplate and see how they fit together.\n\n## In this lesson, you'll learn:\n\n- What is an HTML file?\n- Parts of an HTML file"
+    },
+    {
+      "title": "HTML files",
+      "description": "# HTML files\nAn HTML file is a type of file that helps tell a web browser how to read and display content. These instructions are called **markup**, and the way we mark up web content is by using **HTML tags**. \n\nBrowsers know files are HTML files because they use the `.html` file extension. Each file makes one page on a website. You can name HTML files anything you want as long as you don't include spaces or special characters in the name.\n\nIn your explorer panel, inside your `src` folder, you should see an HTML file. We call this file `index.html` because it is the first page of our site. This is now standard practice in the web, and is a nod to when web servers used to display the \"index\" of the files in a folder so you could navigate between documents.\n\nIn the next step, we'll review what's in a standard HTML file, and then learn to add our own content."
+    },
+    {
+      "file": "src/index.html",
+      "description": "# The Doctype\n\nEvery HTML page starts with a doctype declaration. The doctype’s purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5, and the doctype for that version is simply `<!DOCTYPE html>`.\n\nThe doctype is always the first line in the file. Never put it anywhere else in the HTML file.",
+      "line": 1,
+      "title": "The Doctype",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 7,
+          "character": 90
+        }
+      }
+    },
+    {
+      "file": "src/index.html",
+      "description": "# The HTML element\nAfter we declare the doctype, we need to add an `<html>` tag. This tag starts immediately after the doctype. When you close this tag, it should be after all other elements on the page. It's responsible for telling the browser where your HTML markup begins and ends.\n\nIt also tells the browser what language the content is written in using the `lang` attribute. For the purposes of this class, we'll always use english - `en`.",
+      "line": 2
+    },
+    {
+      "file": "src/index.html",
+      "description": "# The head\nThe `<head>` element is where we put important meta-information about our webpages, and stuff required for our webpages to render correctly in the browser. Never put content that displays on the webpage in this element.\n\nThink of it like your head - it has lots of information about you, but the world can't see what's in your head.",
+      "line": 3
+    },
+    {
+      "file": "src/index.html",
+      "description": "# Meta tags\nMeta tags tell the browser, search engines, and social media services useful information about the content. Some, like the charset tag, are required for the page to work properly. Others, like description, are optional and used to customize the way your website shows in search results or on social media. \n\nThe description should always be updated in your assignments - think about how to summarize your content to someone who is looking at a search result. In this practice assignment, notice how the content for this description would be helpful to someone seeing a snippet of this content in a Google search.",
+      "line": 6
+    },
+    {
+      "file": "src/index.html",
+      "description": "# The title tag\n\nThe title element is used to give webpages a human-readable title which is displayed in our webpage’s browser tab. It is also used in search engine results to display the page title. Often, it matches the first heading on the page - the `h1` tag, which we'll see in a moment.\n\nAdd the following title inside the title tag:\n\n```\nCreating Empathy in Notes on Blindness VR\n```",
+      "line": 7
+    },
+    {
+      "file": "src/index.html",
+      "description": "# The body tag\nThe final element in our HTML boilerplate is the `<body>` element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.\n\nThere is already some content here. Open the linked Google Doc and read it before moving on. When you're done, take a moment to notice how the content is formatted with headings, italics, bold, and links, and how those helped you understand the content more easily and connect to information that was interesting or helpful.\n\nYou can open this link either by copying and pasting the link from this code, or by using `npm run start` in the terminal and clicking the link in the webpage.",
+      "line": 9
+    }
+  ]
+}
